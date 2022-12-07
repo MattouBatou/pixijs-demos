@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"baseUrl": "src",
+		"esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noUnusedParameters": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true /* Enable all strict type-checking options. */,
+		"strictPropertyInitialization": false,
+		"strictNullChecks": true,
+		"target": "es5" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,
+		"typeRoots": ["./node_modules/@types"]
+	},
+	"exclude": ["node_modules", "build", ".vscode"],
+	"include": ["src", "src/**/*.ts", "src/**/*.tsx", "./**/*.d.ts"]
+}

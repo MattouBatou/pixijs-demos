@@ -1,0 +1,11 @@
+{
+	"extends": "stylelint-config-standard",
+	"rules": {
+		"at-rule-name-space-after": "always-single-line",
+		"string-quotes": "single",
+		"indentation": "tab",
+		"no-empty-source": null,
+		"at-rule-no-unknown": null,
+		"declaration-block-trailing-semicolon": null
+	}
+}

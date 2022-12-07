@@ -1,0 +1,14 @@
+{
+	"defaultSeverity": "error",
+	"extends": ["tslint:recommended"],
+	"jsRules": {},
+	"rules": {
+		"ordered-imports": true,
+		"member-ordering": [
+			true,
+			{ "order": "fields-first", "alphabetize": true }
+		],
+		"strictPropertyInitialization": false
+	},
+	"rulesDirectory": []
+}

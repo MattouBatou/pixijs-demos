@@ -1,0 +1,26 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"eslint.alwaysShowStatus": true,
+	"stylelint.enable": true,
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDelete": false,
+	"prettier.disableLanguages": ["css", "scss"],
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"prettier.endOfLine": "crlf",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.fixAll.tslint": true
+	},
+	"prettier.jsxSingleQuote": true,
+	"prettier.useEditorConfig": false,
+	"files.autoSave": "off",
+	"tslint.ignoreDefinitionFiles": true,
+	"tslint.jsEnable": true
+}

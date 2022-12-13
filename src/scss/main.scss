@@ -1,4 +1,5 @@
-html body {
+html,
+body {
 	margin: 0 !important;
 	padding: 0 !important;
 	width: 100% !important;
@@ -19,9 +20,5 @@ html body {
 			overflow: hidden !important;
 		}
 	}
-
-	// For pixel graphics phaser games. Omit for most WebGL games.
-	#gameContainer > canvas {
-		image-rendering: pixelated;
-	}
 }
+

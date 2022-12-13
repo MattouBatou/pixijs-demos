@@ -8,18 +8,25 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 
 module.exports = {
 	entry: {
-		app: './src/main.tsx',
+		app: './src/main.ts',
 	},
-	devtool: 'source-map',
+	devtool: 'eval',
 	output: {
 		path: path.resolve(__dirname, 'build'),
 		filename: '[name].bundle.js',
 	},
 	devServer: {
-		static: path.resolve(__dirname, 'build'),
-		compress: true,
+		static: {
+			directory: path.resolve(__dirname, 'build'),
+			watch: {
+				ignored: /node_modules/,
+			},
+		},
+		compress: false,
 		port: 9000,
 		https: false,
+		hot: true,
+		open: true
 	},
 	module: {
 		rules: [
@@ -95,6 +102,13 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['*', '.js', '.jsx', '.scss', '.ts', '.tsx'],
+	alias: {
+		game: path.resolve(__dirname, 'src/game'),
+		cardDemo: path.resolve(__dirname, 'src/cardDemo'),
+		uiDemo: path.resolve(__dirname, 'src/uiDemo'),
+		fireDemo: path.resolve(__dirname, 'src/fireDemo'),
+		utils: path.resolve(__dirname, 'src/utils')
+	},
 	},
 	plugins: [
 		new CleanWebpackPlugin(),

@@ -1,0 +1,92 @@
+{"frames": {
+
+"1.png":
+{
+	"frame": {"x":1,"y":1,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"2.png":
+{
+	"frame": {"x":1,"y":101,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"3.png":
+{
+	"frame": {"x":1,"y":151,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"4.png":
+{
+	"frame": {"x":1,"y":201,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"5.png":
+{
+	"frame": {"x":67,"y":1,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"6.png":
+{
+	"frame": {"x":67,"y":51,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"7.png":
+{
+	"frame": {"x":67,"y":101,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"8.png":
+{
+	"frame": {"x":67,"y":151,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"9.png":
+{
+	"frame": {"x":67,"y":201,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+},
+"10.png":
+{
+	"frame": {"x":1,"y":51,"w":64,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":48},
+	"sourceSize": {"w":64,"h":48}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pokemonTCG.png",
+	"format": "RGBA8888",
+	"size": {"w":132,"h":250},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6a8c48c14e0e93c5a0213013a2b0c277:5abeabebf92d6cb7c96242e2c4b2e936:bb6904300e063bc02f0a51bdb25fc4c6$"
+}
+}
